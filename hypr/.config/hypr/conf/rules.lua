@@ -35,6 +35,12 @@ hl.window_rule({
 	float = true,
 	size = { 800, 600 },
 })
+hl.window_rule({
+	name = "pulsemixer",
+	match = { class = "pulsemixer" },
+	float = true,
+	size = { 800, 600 },
+})
 
 hl.window_rule({
 	name = "vesktop",
