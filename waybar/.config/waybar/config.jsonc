@@ -99,7 +99,7 @@
 		"format": "{}",
 		"return-type": "json",
 		"interval": 10,
-		"exec": "$(pwd)/scripts/docker-stats/docker-stats",
+		"exec": "~/.config/waybar/scripts/docker-stats/docker-stats",
 		"tooltip": true
 	},
 	"power-profiles-daemon": {
@@ -116,8 +116,8 @@
 	"custom/weather": {
 		"format": "{}",
 		"tooltip": true,
-		"interval": 1800,
-		"exec": "$(pwd)/scripts/weather-stats/weather-stats",
+		"interval": 500,
+		"exec": "~/.config/waybar/scripts/weather-stats/weather-stats",
 		"return-type": "json"
 	},
 	"gamemode": {
