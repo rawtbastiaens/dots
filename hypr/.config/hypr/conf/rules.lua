@@ -72,9 +72,9 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "AVD",
+	name = "Mattermost",
 	match = { class = "Mattermost.Desktop" },
-	workspace = 8,
+	workspace = 9,
 	float = true,
 	border_size = 0,
 	rounding = false,
