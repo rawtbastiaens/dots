@@ -90,6 +90,16 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "Keepass",
+	match = { class = "org.keepassxc.KeePassXC" },
+	workspace = 8,
+	float = true,
+	size = { 800, 600 },
+	border_size = 0,
+	rounding = false,
+})
+
+hl.window_rule({
 	name = "freerdp",
 	match = { class = "tennet_avd" },
 	workspace = 7,
