@@ -65,6 +65,7 @@ hl.window_rule({
 	match = { class = "xfreerdp" },
 	fullscreen = true,
 	size = { 3440, 1440 },
+	float = true,
 	workspace = 7,
 	border_size = 0,
 	rounding = false,
@@ -84,6 +85,16 @@ hl.window_rule({
 	match = { class = "jitsi-meet" },
 	workspace = 6,
 	float = true,
+	border_size = 0,
+	rounding = false,
+})
+
+hl.window_rule({
+	name = "freerdp",
+	match = { class = "tennet_avd" },
+	workspace = 7,
+	float = true,
+	size = { 800, 600 },
 	border_size = 0,
 	rounding = false,
 })
