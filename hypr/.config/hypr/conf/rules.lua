@@ -81,6 +81,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "Firefox",
+	match = { class = "firefox" },
+	workspace = 2,
+})
+
+hl.window_rule({
 	name = "Jitsi",
 	match = { class = "jitsi-meet" },
 	workspace = 6,
