@@ -3,7 +3,10 @@ local fileManager = "kitty --class yazi -e yazi"
 local menu = "fuzzel"
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
-hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
+-- Hotkey for quick screenshotting
+hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -'))
+
+hl.bind("ALT + C", hl.dsp.exec_cmd("nwg-clipman"))
 
 hl.bind("SUPER + escape", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("ALT + Tab", hl.dsp.exec_cmd("snappy-switcher next --mod alt"))
