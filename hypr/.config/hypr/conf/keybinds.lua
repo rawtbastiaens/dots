@@ -1,5 +1,5 @@
 local terminal = "kitty"
-local fileManager = "dolphin"
+local fileManager = "kitty --class yazi -e yazi"
 local menu = "fuzzel"
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
