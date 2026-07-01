@@ -116,6 +116,15 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "yazi",
+	match = { class = "yazi" },
+	float = true,
+	size = { 1720, 720 },
+	border_size = 2,
+	rounding = false,
+})
+
+hl.window_rule({
 	name = "move-hyprland-run",
 	match = { class = "hyprland-run" },
 
