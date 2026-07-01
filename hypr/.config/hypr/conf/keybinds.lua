@@ -9,8 +9,8 @@ hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -
 hl.bind("ALT + C", hl.dsp.exec_cmd("nwg-clipman"))
 
 hl.bind("SUPER + escape", hl.dsp.exec_cmd("hyprlock"))
-hl.bind("ALT + Tab", hl.dsp.exec_cmd("snappy-switcher next --mod alt"))
-hl.bind("SUPER + TAB", hl.dsp.exec_cmd("snappy-switcher next --workspace --mod super"))
+-- hl.bind("ALT + Tab", hl.dsp.exec_cmd("snappy-switcher next --mod alt"))
+-- hl.bind("SUPER + TAB", hl.dsp.exec_cmd("snappy-switcher next --workspace --mod super"))
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
