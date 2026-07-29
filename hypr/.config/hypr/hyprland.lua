@@ -14,7 +14,7 @@ require("conf/autostart")
 -------------------------------
 ---- ENVIRONMENT VARIABLES ----
 -------------------------------
-require("conf/autostart")
+require("conf/env")
 
 -----------------------
 ---- LOOK AND FEEL ----
