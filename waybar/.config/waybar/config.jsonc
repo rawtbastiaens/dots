@@ -16,6 +16,7 @@
 	"modules-right": [
 		"custom/pacman",
 		"power-profiles-daemon",
+		"battery",
 		"bluetooth",
 		"pulseaudio",
 		"group/hardware",
@@ -195,6 +196,30 @@
 		"exec": "checkupdates | wc -l",
 		"exec-if": "exit 0",
 		"signal": 8
+	},
+	"battery": {
+		"bat": "BAT0",
+		"interval": 60,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"events": {
+			"on-discharging-warning": "notify-send -u normal 'Low Battery'",
+			"on-discharging-critical": "notify-send -u critical 'Very Low Battery'",
+			"on-charging-100": "notify-send -u normal 'Battery Full!'",
+			"on-discharging": "notify-send -u normal 'Power Switch' Discharging",
+			"on-charging": "notify-send -u normal 'Power Switch' Charging'"
+		},
+		"format": "{capacity}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"max-length": 25
 	},
 	"group/hardware": {
 		"orientation": "horizontal",
