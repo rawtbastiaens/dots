@@ -23,6 +23,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "kitty-opacity",
+	match = { class = "kitty" },
+	opacity = 0.8,
+})
+
+hl.window_rule({
 	name = "teams",
 	match = { class = "teams-for-linux" },
 	float = true,
@@ -122,6 +128,20 @@ hl.window_rule({
 	size = { 1720, 720 },
 	border_size = 2,
 	rounding = false,
+})
+
+hl.window_rule({
+	name = "Steam_games",
+	match = { class = "^(steam_app.*)$" },
+	workspace = 10,
+	fullscreen = true,
+})
+
+hl.window_rule({
+	name = "Firefox picture in picture",
+	match = { title = "Picture in picture" },
+	pin = true,
+	float = true,
 })
 
 hl.window_rule({
