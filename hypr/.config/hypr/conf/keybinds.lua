@@ -1,6 +1,7 @@
 local terminal = "kitty"
 local fileManager = "kitty --class yazi -e yazi"
 local menu = "fuzzel"
+-- local menu = "tofi-drun --drun-launch=true"
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Hotkey for quick screenshotting
