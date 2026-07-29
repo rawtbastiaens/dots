@@ -84,6 +84,10 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
+-- Focus monitor left/right
+hl.bind(mainMod .. " + comma", hl.dsp.focus({ monitor = "l" }))
+hl.bind(mainMod .. " + period", hl.dsp.focus({ monitor = "r" }))
+
 -- Move current workspace to monitor left/right
-hl.bind(mainMod .. " + comma", hl.dsp.workspace.move({ monitor = "l" }))
-hl.bind(mainMod .. " + period", hl.dsp.workspace.move({ monitor = "r" }))
+hl.bind(mainMod .. " + SHIFT + comma", hl.dsp.workspace.move({ monitor = "l" }))
+hl.bind(mainMod .. " + SHIFT + period", hl.dsp.workspace.move({ monitor = "r" }))
