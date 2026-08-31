@@ -39,7 +39,7 @@ hl.config({
 		-- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
 		allow_tearing = false,
 
-		layout = "master",
+		layout = "dwindle",
 	},
 
 	decoration = {
@@ -78,6 +78,7 @@ hl.workspace_rule({ workspace = "7", monitor = "HDMI-A-1" })
 hl.config({
 	dwindle = {
 		preserve_split = true, -- You probably want this
+		default_split_ratio = 1.2,
 	},
 })
 
