@@ -21,7 +21,7 @@
 			"battery",
 			"bluetooth",
 			"pulseaudio",
-			"group/hardware",
+			// "group/hardware",
 			"custom/notification"
 		],
 		"hyprland/workspaces": {
