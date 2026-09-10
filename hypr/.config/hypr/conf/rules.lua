@@ -29,6 +29,13 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "float-pam",
+	match = { class = "com-ca-Main" },
+	center = true,
+	float = true,
+})
+
+hl.window_rule({
 	name = "teams",
 	match = { class = "teams-for-linux" },
 	float = true,
