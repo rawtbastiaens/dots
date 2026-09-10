@@ -3,7 +3,9 @@
 		"layer": "bottom",
 		"reload_style_on_change": true,
 		"output": [
-			"HDMI-A-1"
+			"HDMI-A-1",
+			"eDP-1",
+			"DP-2"
 		],
 		"position": "top",
 		"include": [
@@ -32,7 +34,8 @@
 		"layer": "bottom",
 		"reload_style_on_change": true,
 		"output": [
-			"HDMI-A-1"
+			"HDMI-A-1",
+			"eDP-1"
 		],
 		"include": [
 			"~/.config/waybar/modules.json"
